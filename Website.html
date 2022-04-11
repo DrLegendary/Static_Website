@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diff's BMarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Karla:wght@300&family=Poppins:wght@300&family=Quicksand&display=swap" rel="stylesheet"><link rel="shortcut icon" href="Logo.jpg" type="image/x-icon">
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        nav
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            box-shadow:1px 1px 0.8px rgba(0, 0, 0, 0.8);
+        }
+        a#navbar
+        {
+            font-family: 'Quicksand', sans-serif;
+            float: right;
+            text-decoration: none;
+            margin: 10px;
+            padding: 20px;
+            color: white;
+            font-size: 13px;
+        }
+        img#navimg
+        {
+            float: left;
+            margin: 5px;
+        }
+        a#navbar:hover
+        {
+            color: crimson;
+            text-shadow:1px 1px 0.8px rgba(0, 0, 0, 0.8);
+            transform: scale(1.2);
+        }
+        table#imagetable
+        {
+            border-spacing: 15px;
+            display: inline-block;
+        }
+        div#shoptext 
+        {
+            font-family: 'Quicksand', sans-serif;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.4);
+            bottom: 0;
+            left: 0;
+            margin-bottom: 90px ;
+            color: whitesmoke;
+        }
+        section#shopdetail
+        {
+            font-family: 'Quicksar4nd', sans-serif;
+            width: 65%;
+            margin: auto;
+        }
+        h1#detailtitle::after
+        {
+            content: "";
+            display: block;
+            width: 150px;
+            height: 2px;
+            background-color: black;
+            margin: auto;
+            margin-top: 10px;
+        }
+        div#detail-text
+        {
+            font-family: 'Quicksand', sans-serif;
+            vertical-align: top;
+            width: 30%;
+            display: inline-block;
+            margin-top: 40px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="Logo.jpg" alt="Logo of this website" width="80px" height="70px" id="navimg">
+        <a href="SignOut.php" id="navbar">Sign-out</a>
+        <a href="" id="navbar">Profile</a>
+        <a href="ProductDisplays.php" id="navbar">Product Display</a>
+        <a href="" id="navbar">Sign-up</a>
+        <a href="CustomerSignIn.php" id="navbar">Sign-in</a>
+        <a href="Website.html" id="navbar">Home</a>
+    </nav>
+    <section id="shopview" style="display: inline; width: 100%;">
+        <img src="background3.jpg" alt="" width="100%" height="600px">
+        <div id="shoptext">
+            <h2>Welcome to Diff's BMarket</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio suscipit eum quod, earum dignissimos iure et soluta? Aspernatur ullam nihil eius similique deleniti fuga, ipsum ad nam voluptate pariatur quisquam.</p>
+        </div>
+    </section>
+    <section id="shopdetail">
+        <h1 style="text-align: center;font-size: 28px;" id="detailtitle">Steel Series</h1>
+        <table style="margin-top: 18px;" id="imagetable">
+            <tr><td rowspan="2"><img src="headphone.jpg" alt="" width="200px" height="200px"></td>
+            <td><img src="mouse.jpg" alt="" width="100px" height="100px"></td></tr>
+            <tr><td><img src="apex.jpg" alt="" width="100px" height="100px"></td></tr>
+        </table>
+        <div id="detail-text">
+            <p>PREMIUM OFFER</p>
+            <h1>Get it or regret it later</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam enim provident eveniet itaque asperiores rem optio quam. Omnis placeat ratione cum reprehenderit asperiores tempora, officiis voluptatibus, et blanditiis, quas neque?</p>
+        </div>
+    </section>
+</body>
+</html>
